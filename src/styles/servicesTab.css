@@ -1,0 +1,63 @@
+.service-tab-container {
+  width: 71%;
+  padding: 10rem;
+  padding-left: 12.7rem;
+  padding-bottom: 2rem;
+}
+.sevices-article h4 {
+  font-size: 0.875rem;
+  text-decoration: underline;
+}
+.sevices-article p {
+  font-size: 0.875rem;
+}
+.serviecs-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1140px) {
+  .serviecs-container {
+    flex-direction: row;
+    margin: 1.5rem;
+    margin-top: 0rem;
+    align-items: center;
+  }
+  .service-tab-container {
+    width: 100%;
+    padding: 0;
+    padding-left: 0rem;
+    padding-bottom: 0;
+  }
+  .service-tab-container h2 {
+    margin-left: 1.5rem;
+  }
+  .sevices-article {
+    margin-right: 1rem;
+  }
+  .services-image {
+    width: 32vw;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 690px) {
+  .serviecs-container {
+    flex-direction: column;
+    margin: 1.5rem;
+    margin-top: 0rem;
+    align-items: center;
+  }
+  .service-tab-container {
+    width: 100%;
+    padding: 0;
+    padding-left: 0rem;
+    padding-bottom: 0;
+  }
+  .service-tab-container h2 {
+    margin-left: 1.5rem;
+  }
+  .services-image {
+    width: 60vw;
+    object-fit: cover;
+  }
+}

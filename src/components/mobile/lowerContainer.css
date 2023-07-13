@@ -1,0 +1,45 @@
+.lower-component {
+  width: 100%;
+  left: 10%;
+  position: absolute;
+}
+.lower-component ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 0;
+  opacity: 0.99;
+}
+.lower-component li {
+  width: 79%;
+  height: 40px;
+  color: black;
+  font-weight: bold;
+}
+.navLink {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding-left: 20px;
+  border: 1px solid black;
+}
+.subLink {
+  padding-left: 35px;
+  width: 95%;
+}
+@media screen and (max-width: 1140px) {
+  .subLink {
+    width: 97.7%;
+  }
+}
+@media screen and (max-width: 690px) {
+  .subLink {
+    width: 95%;
+  }
+}

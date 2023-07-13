@@ -1,0 +1,6 @@
+.gallery-images {
+  transition: 0.8s;
+}
+.gallery-images:hover {
+  opacity: 0.5;
+}

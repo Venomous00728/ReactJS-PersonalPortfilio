@@ -1,0 +1,18 @@
+.client-gallery-container {
+  width: 71%;
+  padding: 10rem;
+  padding-left: 12.7rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1140px) {
+  .client-gallery-container {
+    width: 100%;
+    padding: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+  .client-data {
+    margin: 1.5rem;
+  }
+}

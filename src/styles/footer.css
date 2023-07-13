@@ -1,0 +1,52 @@
+.footer-container {
+  width: 100%;
+  height: 70.2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dddcdc;
+  flex-direction: column;
+}
+.footer-container p {
+  font-size: 12px;
+  line-height: 0;
+}
+.mylink {
+  width: 100px;
+  background-color: grey;
+  height: 70.2px;
+  position: absolute;
+  right: 0;
+  opacity: 0;
+  cursor: default;
+}
+.linkedIn {
+  color: black;
+  font-size: 12px;
+  margin-left: 2px;
+}
+.footer-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    height: 90px;
+  }
+  .footer-container p {
+    font-size: 11px;
+    line-height: 1;
+    text-align: center;
+  }
+  .mylink {
+    width: 30px;
+    height: 30px;
+    margin-top: 3.6rem;
+  }
+  .footer-info-wrapper {
+    display: block;
+  }
+}

@@ -1,0 +1,27 @@
+.list-container {
+  position: absolute;
+  left: 43%;
+  z-index: 1;
+}
+
+.list-container ul {
+  background-color: #ffffff;
+}
+
+.list-container li {
+  list-style: none;
+  text-align: end;
+  margin-right: 0.8rem;
+}
+.list-container-navlink {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.list-container-navlink:hover {
+  color: #d2d1d1;
+}
+
+.list-container-navlink.hovered {
+  color: #d2d1d1;
+}

@@ -1,0 +1,18 @@
+.portfolio-container {
+  width: 71%;
+  padding: 10rem;
+  padding-left: 12.7rem;
+  padding-bottom: 2rem;
+}
+
+@media screen and (max-width: 1140px) {
+  .portfolio-container {
+    width: 100%;
+    padding: 0;
+    padding-left: 0rem;
+    padding-bottom: 0;
+  }
+  .portfolio-data {
+    margin: 1.5rem;
+  }
+}
