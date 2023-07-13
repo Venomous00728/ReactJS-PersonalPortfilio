@@ -1,6 +1,14 @@
 # Visual Representation
 ## Site Link: https://rostislava-portfolio.vercel.app/
 
+### Portfolio
+![Minimalist Neutral Multi Device Computer Mockup Website Launch Instagram Post](https://github.com/Venomous00728/ReactJS-PersonalPortfilio/assets/111381054/bddf12ca-f8f6-447f-83a5-9c5dda8480a8)
+
+### Desktop, Tablet and Mobile View
+![Untitled design (1)](https://github.com/Venomous00728/ReactJS-PersonalPortfilio/assets/111381054/349cc1f9-38b5-4419-83ea-c8fb99b9282f)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
